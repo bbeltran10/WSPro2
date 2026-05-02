@@ -40,5 +40,8 @@ The website features a consistent header, navigation, and footer across all page
 - Interactive Contact Form Validated inputs, grouped options, required fields, and clear messaging
 
 ---
+<img width="1920" height="1241" alt="image" src="https://github.com/user-attachments/assets/3ceeca4f-a2d8-4dcf-aa5b-fd54f258434f" />
+
+---
 
 This project demonstrates how design, usability, and accessibility can work together in a professional portfolio website.
