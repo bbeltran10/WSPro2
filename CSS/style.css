@@ -1,0 +1,134 @@
+/* Design System */
+:root {
+    /* Spacing */
+    --spacing-small: 10px;
+    --spacing-medium: 30px;
+    --spacing-large: 60px;
+
+    /* Colors */
+    --color-primary: #25427A;        /* Dark Blue */
+    --color-secondary: #25427ACC;    /* Semi-transparent Blue for banners */
+    --color-accent: #DC5F3C4D;       /* Semi-transparent Accent */
+
+    /* Content */
+    --max-content-width: 1200px;
+
+    /* Border / Shadow */
+    --border-style: 8px groove rosybrown;
+}
+
+/* General body */
+body {
+    background-image: url("../images/1unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* iframe */
+iframe {
+    width: 70%;
+    display: block;
+    margin: var(--spacing-medium) auto;
+}
+
+/* Home section */
+#home {
+    padding-bottom: var(--spacing-large);
+}
+
+/* Resume section */
+#resume {
+    padding: var(--spacing-medium) 0;
+    text-align: center;
+}
+
+/* Banner */
+#bannerimg {
+    margin: auto;
+    padding: var(--spacing-medium) 0 var(--spacing-medium) 100px;
+}
+#banner {
+    background-color: var(--color-secondary);
+    margin-bottom: var(--spacing-medium);
+}
+
+/* Bio */
+#bio {
+    float: right;
+    padding: 0 var(--spacing-medium) var(--spacing-medium) var(--spacing-medium);
+}
+
+/* Body content */
+#body {
+    padding-left: 190px;
+    background-color: var(--color-accent);
+    padding-bottom: var(--spacing-large);
+    max-width: var(--max-content-width);
+}
+
+/* Navigation */
+nav {
+    border-color: white;
+    background-color: var(--color-primary);
+    clear: left;
+    float: left;
+    width: 160px;
+    padding: var(--spacing-small);
+    margin-right: var(--spacing-medium);
+}
+
+nav a {
+    margin: 0;
+    padding: var(--spacing-small);
+    line-height: 1.5em;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+li {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+a:link, a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a:active, a:hover {
+    color: rosybrown;
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: var(--color-primary);
+    font-size: 15px;
+    border: var(--border-style);
+}
+
+footer p {
+    color: cornflowerblue;
+    padding: var(--spacing-small) 0 var(--spacing-medium) 0;
+}
+
+/* Example class */
+.example {
+    height: 450px;
+}
